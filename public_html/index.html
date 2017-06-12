@@ -7,10 +7,19 @@
     </head>
     <body>
         <script type="text/javascript">
-            document.write("hello World");
-            var l = 52;
-             document.write("text " + l);
+            
+            function person(name,age){
+                this.name= name;
+                this.age=age;
+            }
+            
+            var j = new person("jevin", 21);
+            var r = new person("ll", 11);
+            
+            document.write(j.name + "<br>");
+            document.write(j.age);
             
         </script>
+
     </body>
 </html>
